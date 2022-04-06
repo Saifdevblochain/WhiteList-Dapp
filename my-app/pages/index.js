@@ -190,7 +190,7 @@ export default function Home() {
   }, [walletConnected]);
 
   return (
-    <div>
+    <div className={styles.color}>
       <Head>
         <title>Whitelist Dapp</title>
         <meta name="description" content="Whitelist-Dapp" />
